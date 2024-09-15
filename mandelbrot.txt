@@ -1,0 +1,17 @@
+Mandelbrot Set:
+
+z = a + bi
+z^2 = (a+bi)(a+bi) = a^2 - b^2 + 2bi
+
+The set of complex numbers for which the recurrence relationship
+Z_i+1 = (Z_i)^2 + C does not diverage
+Z_0 = C
+Z_1 = (Z_0) ^2 + C
+Z_2 = (Z_1) ^2 + C...
+
+So a complex number c is a member of the mandelbrot set, if |Z_n| does not diverge,
+after applying the iteration repeatedly and starting from Z_0 = 0. (where n>0)
+
+if a point is outside the circle radius 2 about the origin, it will diverge
+
+The mandelbrot set is usually coloured, depending on how many iterations the point takes for it to diverage
